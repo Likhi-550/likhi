@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>flex box</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style type="text/css">
+		header
+		{
+			text-align: center;
+			font-weight: bold;
+			padding: 1%;
+			font-size: 30px;
+		}
+	.grid
+	{
+		
+		display: flex;
+		flex-wrap: wrap;
+		border: 1px olive ;
+		justify-content: space-around;
+		
+
+
+	}
+	.shorthand
+	{
+		background-color: #bdbdbd;
+		display: flex;
+
+	}
+	
+
+		img
+		{
+			width: 250px;
+			height: 250px;
+			padding: 15px;
+			margin-left: 10px;
+			border: 1px solid green;
+
+		}
+		@media only screen and (max-width:600px){
+			.grid
+			{
+				display: flex;
+				flex-direction: column;
+				flex-wrap: wrap;
+
+			}
+
+		img
+		{
+			width: 250px;
+			height: 250px;
+			padding: 15px;
+			margin:55px;
+			border: 1px solid green;
+
+		}
+
+		}
+	</style>
+</head>
+<body>
+	<header>IMAGES</header>
+	<div class="grid shorthand">
+		<img src="img/doraemon.jpg">
+		<img src="img/pikachu.jpg">
+		<img src="img/bean.jpg">
+		<img src="img/tom.jpg">
+	</div>
+<
+	</div>
+</body>
+</html>
